@@ -1,3 +1,41 @@
+/*
+
+I did this:
+
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/peegee123/MyPackage.git
+git push -u origin main
+git remote set-url origin https://peegee123:github_pat_<...>@github.com/peegee123/MyPackage.git
+git push -u origin main
+-> ok but with wrong username and email
+
+git config --global user.name
+->
+3firemusic
+
+
+git config --global user.email
+->
+peter.woods@3firemusic.com
+
+
+# change for this project
+
+git config user.name "peegee123"
+git config user.email "peter.woods@gmail.com"
+
+git config user.name
+git config user.email
+
+git commit -m "Initial commit"
+git remote add origin https://github.com/peegee123/MyPackage.git
+git push -u origin main
+
+
+
+*/
+
 // swift-tools-version: 6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
