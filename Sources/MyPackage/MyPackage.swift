@@ -3,6 +3,6 @@
 
 public struct MyPackage {
     public static func sayHello() -> String {
-        return "Hello from MyPackage 2!"
+        return "Hello from MyPackage p3 "
     }
 }

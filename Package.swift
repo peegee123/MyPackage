@@ -32,6 +32,12 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/peegee123/MyPackage.git
 git push -u origin main
 
+git status
+git add .
+git status
+git commit -m "added comments"
+git push
+git log
 
 
 */
